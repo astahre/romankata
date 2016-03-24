@@ -10,5 +10,11 @@ public class ArabicNumeralsTest {
 		ArabicNumerals an = new ArabicNumerals();
 		assertEquals(1, an.convertArabic("I"));
 	}
+	
+	@Test
+	public void inputofIIReturns2() {
+		ArabicNumerals an = new ArabicNumerals();
+		assertEquals(2, an.convertArabic("II"));
+	}
 
 }
