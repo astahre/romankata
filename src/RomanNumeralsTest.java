@@ -96,5 +96,20 @@ public class RomanNumeralsTest {
 	public void inputOf1000returnsM() {
 		assertEquals("M", rn.convertRoman(1000));
 	}
+	
+	@Test
+	public void inputOf3returnsIII() {
+		assertEquals("III", rn.convertRoman(3));
+	}
+	
+	@Test
+	public void inputOf1066returnsMLXVI() {
+		assertEquals("MLXVI", rn.convertRoman(1066));
+	}
+	
+	@Test
+	public void inputOf1989returnsMCMLXXXIX() {
+		assertEquals("MCMLXXXIX", rn.convertRoman(1989));
+	}
 
 }

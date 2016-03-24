@@ -4,7 +4,10 @@ public class RomanNumerals {
 	public String convertRoman(int i) {
 		String roman = "";
 		for (int c = i; c > 0;) {
-			if (c >= 900) {
+			if (c >= 1000) {
+				roman += "M";
+				c -= 1000;
+			} else if (c >= 900) {
 				roman += "CM";
 				c -= 900;
 			} else if (c >= 500) {
