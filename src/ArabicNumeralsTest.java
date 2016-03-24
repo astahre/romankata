@@ -56,5 +56,10 @@ public class ArabicNumeralsTest {
 	public void inputOfMreturns1000() {
 		assertEquals(1000, an.convertArabic("M"));
 	}
+	
+	@Test
+	public void inputOfMDCCCLXXXVIIIreturns1888() {
+		assertEquals(1888, an.convertArabic("MDCCCLXXXVIII"));
+	}
 
 }
