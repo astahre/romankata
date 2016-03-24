@@ -21,5 +21,10 @@ public class RomanNumeralsTest {
 	public void inputOf2returnsII() {
 		assertEquals("II", rn.convertRoman(2));
 	}
+	
+	@Test
+	public void inputOf4returnsIV() {
+		assertEquals("IV", rn.convertRoman(4));
+	}
 
 }
