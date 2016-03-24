@@ -71,5 +71,10 @@ public class RomanNumeralsTest {
 	public void inputOf99returnsXCIX() {
 		assertEquals("XCIX", rn.convertRoman(99));
 	}
+	
+	@Test
+	public void inputOf100returnsC() {
+		assertEquals("C", rn.convertRoman(100));
+	}
 
 }
