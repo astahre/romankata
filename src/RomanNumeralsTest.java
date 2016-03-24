@@ -10,5 +10,11 @@ public class RomanNumeralsTest {
 		RomanNumerals rn = new RomanNumerals();
 		assertEquals("I", rn.convertRoman(1));
 	}
+	
+	@Test
+	public void inputOf2returnsII() {
+		RomanNumerals rn = new RomanNumerals();
+		assertEquals("II", rn.convertRoman(2));
+	}
 
 }
