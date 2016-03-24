@@ -8,8 +8,10 @@ public class ArabicNumerals {
 			char romanChar = roman.charAt(i);
 			if (romanChar == 'I') {
 				numArray[i] = 1;
-			} else {
+			} else if (romanChar == 'V') {
 				numArray[i] = 5;
+			} else {
+				numArray[i] = 10;
 			}
 		}
 		
