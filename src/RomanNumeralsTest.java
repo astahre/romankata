@@ -31,5 +31,10 @@ public class RomanNumeralsTest {
 	public void inputOf5returnsV() {
 		assertEquals("V", rn.convertRoman(5));
 	}
+	
+	@Test
+	public void inputOf6returnsVI() {
+		assertEquals("VI", rn.convertRoman(6));
+	}
 
 }
