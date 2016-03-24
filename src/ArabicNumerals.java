@@ -6,12 +6,14 @@ public class ArabicNumerals {
 		int []numArray = new int[roman.length()];
 		for (int i = 0; i < x; i++) {
 			char romanChar = roman.charAt(i);
-			if (romanChar == 'I') {
-				numArray[i] = 1;
-			} else if (romanChar == 'V') {
-				numArray[i] = 5;
-			} else {
-				numArray[i] = 10;
+			
+			switch (romanChar) {
+            	case 'I':  numArray[i] = 1;
+                     break;
+            	case 'V':  numArray[i] = 5;
+            		break; 
+            	case 'X':  numArray[i] = 10;
+            		break; 
 			}
 		}
 		
