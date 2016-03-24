@@ -41,5 +41,10 @@ public class ArabicNumeralsTest {
 	public void inputOfLreturns50() {
 		assertEquals(50, an.convertArabic("L"));
 	}
+	
+	@Test
+	public void inputOfCreturns100() {
+		assertEquals(100, an.convertArabic("C"));
+	}
 
 }
