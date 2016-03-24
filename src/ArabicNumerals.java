@@ -16,6 +16,8 @@ public class ArabicNumerals {
             		break; 
             	case 'L':  numArray[i] = 50;
         			break;
+            	case 'C':  numArray[i] = 100;
+        			break;        		
 			}
 		}
 		
