@@ -76,5 +76,10 @@ public class RomanNumeralsTest {
 	public void inputOf100returnsC() {
 		assertEquals("C", rn.convertRoman(100));
 	}
+	
+	@Test
+	public void inputOf400returnsCD() {
+		assertEquals("CD", rn.convertRoman(400));
+	}
 
 }
