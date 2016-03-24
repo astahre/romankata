@@ -81,5 +81,10 @@ public class RomanNumeralsTest {
 	public void inputOf400returnsCD() {
 		assertEquals("CD", rn.convertRoman(400));
 	}
+	
+	@Test
+	public void inputOf500returnsD() {
+		assertEquals("D", rn.convertRoman(500));
+	}
 
 }
