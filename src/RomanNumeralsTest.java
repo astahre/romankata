@@ -91,5 +91,10 @@ public class RomanNumeralsTest {
 	public void inputOf900returnsCM() {
 		assertEquals("CM", rn.convertRoman(900));
 	}
+	
+	@Test
+	public void inputOf1000returnsM() {
+		assertEquals("M", rn.convertRoman(1000));
+	}
 
 }
