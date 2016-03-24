@@ -31,5 +31,10 @@ public class ArabicNumeralsTest {
 	public void inputofVReturns5() {
 		assertEquals(5, an.convertArabic("V"));
 	}
+	
+	@Test
+	public void inputofXReturns10() {
+		assertEquals(10, an.convertArabic("X"));
+	}
 
 }
