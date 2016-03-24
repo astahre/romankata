@@ -61,5 +61,10 @@ public class ArabicNumeralsTest {
 	public void inputOfMDCCCLXXXVIIIreturns1888() {
 		assertEquals(1888, an.convertArabic("MDCCCLXXXVIII"));
 	}
+	
+	@Test
+	public void inputOfIVreturns4() {
+		assertEquals(4, an.convertArabic("IV"));
+	}
 
 }
