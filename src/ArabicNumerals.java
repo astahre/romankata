@@ -20,6 +20,8 @@ public class ArabicNumerals {
         			break;  
             	case 'D':  numArray[i] = 500;
         			break; 
+            	case 'M':  numArray[i] = 1000;
+    				break; 
 			}
 		}
 		
