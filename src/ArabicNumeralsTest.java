@@ -7,7 +7,7 @@ public class ArabicNumeralsTest {
 
 	@Test
 	public void inputofIReturns1() {
-		ArabicNumerals an = new Arabic Numerals();
+		ArabicNumerals an = new ArabicNumerals();
 		assertEquals(1, an.convertArabic("I"));
 	}
 
