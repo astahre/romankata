@@ -25,6 +25,12 @@ public class ArabicNumerals {
 			}
 		}
 		
+		for (int i = 1; i < x; i++){
+			if (numArray[i - 1] < numArray[i]) {
+				numArray[i - 1] = -numArray[i - 1];
+			}
+		}
+		
 		int total = 0;
 		for (int i = 0; i < x; i++) {
 			total += numArray[i];
