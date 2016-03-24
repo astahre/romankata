@@ -56,5 +56,10 @@ public class RomanNumeralsTest {
 	public void inputOf50returnsL() {
 		assertEquals("L", rn.convertRoman(50));
 	}
+	
+	@Test
+	public void inputOf75returnsLXXV() {
+		assertEquals("LXXV", rn.convertRoman(75));
+	}
 
 }
