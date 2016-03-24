@@ -4,10 +4,13 @@ public class RomanNumerals {
 	public String convertRoman(int i) {
 		String roman = "";
 		for (int c = i; c > 0;) {
-			if (c == 9) {
+			if (c >= 10) {
+				roman += "X";
+				c -= 10;
+			} else if(c == 9) {
 				roman += "IX";
 				c -= 9;
-			} else if (c > 4) {
+			} else if (c >= 5) {
 				roman += "V";
 				c -= 5;
 			} else if (c == 4){
