@@ -71,5 +71,22 @@ public class ArabicNumeralsTest {
 	public void inputOfMCMXCVIIreturns1997() {
 		assertEquals(1997, an.convertArabic("MCMXCVII"));
 	}
+	
+	@Test
+	public void inputOfIXreturns9() {
+		assertEquals(9, an.convertArabic("IX"));
+	}
+	
+	@Test
+	public void inputOfMLXVIreturns1066() {
+		assertEquals(1066, an.convertArabic("MLXVI"));
+	}
+	
+	@Test
+	public void inputOfMCMLXXXIXreturns1989() {
+		assertEquals(1989, an.convertArabic("MCMLXXXIX"));
+	}
+	
+	
 
 }
