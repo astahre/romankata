@@ -4,7 +4,10 @@ public class RomanNumerals {
 	public String convertRoman(int i) {
 		String roman = "";
 		for (int c = i; c > 0;) {
-			if (c >= 50) {
+			if (c >= 90) {
+				roman += "XC";
+				c -= 90;
+			} else  if (c >= 50) {
 				roman += "L";
 				c -= 50;
 			} else if (c >= 10) {
